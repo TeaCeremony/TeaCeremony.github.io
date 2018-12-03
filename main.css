@@ -19,8 +19,10 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.navbar-header{    
-    text-align:center;
+.navbar-header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'CASUAL';
 }
 .row {
     font-size: large;
@@ -92,7 +94,6 @@ figcaption {
 figcaption > a {
     color: white;
 }
-
 .sel1-resep {
     background: url(img/img1.jpg) space no-repeat;
     background-size: 100% 100%;
@@ -263,6 +264,9 @@ figcaption > a {
 .resep6 {
     background-color: indianred;
 }
+.resep7 {
+    background-color: lightsalmon;
+}
 /*This thing для прозрачного блока в карусели*/
 .carousel-caption {
     box-shadow: inset 0 0 10px 100px rgba(0,0,0,.3);
@@ -324,11 +328,10 @@ body {
     .container-fluid >.row {
         display: none
     }
-    
     .container {
         margin-top: 10px;
     }
-    .navbar > .navbar-inverse {
+        .navbar > .navbar-inverse {
         margin-right: -15px;
         margin-left: -15px;
         text-align: center;
@@ -344,8 +347,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -355,8 +358,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -366,8 +369,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -377,8 +380,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -388,8 +391,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -399,8 +402,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -410,8 +413,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -432,8 +435,8 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         height: auto;
         width: 310px;
     }
@@ -449,4 +452,254 @@ body {
     .back {
         height: 100vh;
     }
+}
+@media (max-width: 1200px) {
+    .sel1-resep {
+        background: url(img/img1.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: calc(25vw*1.3);
+        width: 25vw;
+    }
+
+    .sel2-resep {
+        background: url(img/img2.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: calc(25vw*1.3);
+        width: 25vw;
+    }
+
+    .sel3-resep {
+        background: url(img/img3.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: calc(25vw*1.3);
+        width: 25vw;
+    }
+
+    .sel1-kinds {
+        background: url(img/img4.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel2-kinds {
+        background: url(img/img5.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel3-kinds {
+        background: url(img/img6.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel1-facts {
+        background: url(img/img7.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel2-facts {
+        background: url(img/img8.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel3-facts {
+        background: url(img/img9.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; /* Отступы */
+        margin-bottom: 20px; /* Отступы */
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+    .sel1-resep > figcaption {
+        padding-top: calc(15vh*1.5);
+        padding-bottom: calc(69vh*1.5);
+    }
+
+    .sel2-resep > figcaption {
+        padding-top: 15px;
+        padding-bottom: 69px;
+    }
+
+    .sel3-resep > figcaption {
+        padding-top: 15px;
+        padding-bottom: 69px;
+    }
+
+    .sel1-kinds > figcaption {
+        padding-top: 15px;
+        padding-bottom: 69px;
+    }
+
+    .sel2-kinds > figcaption {
+        padding-top: 15px;
+        padding-bottom: 69px;
+    }
+
+    .sel3-kinds > figcaption {
+        padding-top: 15px;
+        padding-bottom: 69px;
+    }
+
+    .sel1-facts > figcaption {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .sel2-facts > figcaption {
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 0.08px;
+    }
+
+    .sel3-facts > figcaption {
+        padding-top: 15px;
+        padding-bottom: 45px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    figure{
+        float:none;
+    }
+    /*.sel1-resep {
+        background: url(img/img1.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px; 
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel2-resep {
+        background: url(img/img2.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel3-resep {
+        background: url(img/img3.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel1-kinds {
+        background: url(img/img4.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel2-kinds {
+        background: url(img/img5.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel3-kinds {
+        background: url(img/img6.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel1-facts {
+        background: url(img/img7.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel2-facts {
+        background: url(img/img8.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }
+
+    .sel3-facts {
+        background: url(img/img9.jpg) space no-repeat;
+        background-size: 100% 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 12%;
+        margin-right: 12%;
+        height: 300px;
+        width: 240px;
+    }*/
 }
