@@ -339,10 +339,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 2%;
+        margin-right: 2%;
         height: auto;
-        width: 60%;
+        width: 96%;
     }
 
     .sel2-resep {
