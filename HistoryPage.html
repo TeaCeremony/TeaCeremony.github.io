@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="windows-1251" />
+    <!-- для мобильной версии -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Always TEA</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="img/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!-- Главная -->
+    <div class="backother">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header" style="font-family:'CASUAL'; font-size:30px;">
+                    Teapot
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hid-md"><a class="active" href="index.html">Главная</a></li>
+                        <li class="hid-md"><a href="HistoryPage.html">История чая</a></li>
+                        <li class="hid-md"><a href="KindsPage.html">Виды чая</a></li>
+                        <li class="hid-md"><a href="CeremoniesPage.html">Церемонии</a></li>
+                        <li class="hid-md"><a href="ResepiesPage.html">Рецепты</a></li>
+                        <li class="hid-md"><a href="FactsPage.html">Интересные факты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <ul class="row">
+                <li class="col-sm-2 col-md-2 hidden-xs"><a class="active" href="index.html">Главная</a></li>
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="HistoryPage.html">История чая</a></li>
+
+                <!-- Выпадающий список -->
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="KindsPage.html">Виды чая</a></li>
+                <li class="dropdown col-sm-2 col-md-2 hidden-xs">
+                    <a class="dropdown-toggle" href="CermoniesPage.html" data-toggle="dropdown">Церемонии<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Китай</a></li>
+                        <li><a href="#">Япония</a></li>
+                        <li><a href="#">Англия</a></li>
+                    </ul>
+                </li>
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="ResepiesPage.html">Рецепты</a></li>
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="FactsPage.html">Факты</a></li>
+
+            </ul>
+        </div>
+     
+    <footer>
+        Copyright Alexandra 2018
+    </footer>
+</body>
+</html>
