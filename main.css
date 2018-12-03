@@ -339,10 +339,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 96%;
+        width: auto;
     }
 
     .sel2-resep {
@@ -350,10 +350,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel3-resep {
@@ -361,10 +361,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel1-kinds {
@@ -372,10 +372,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel2-kinds {
@@ -383,10 +383,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel3-kinds {
@@ -394,10 +394,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel1-facts {
@@ -405,10 +405,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel2-facts {
@@ -416,10 +416,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 
     .sel3-facts {
@@ -427,10 +427,10 @@ body {
         background-size: 100% 100%;
         margin-top: 20px; /* Отступы */
         margin-bottom: 20px; /* Отступы */
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 7%;
+        margin-right: 7%;
         height: auto;
-        width: 60%;
+        width: auto;
     }
 }
 @media (min-width: 768px)
