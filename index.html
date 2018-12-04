@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="windows-1251" />
     <!-- для мобильной версии -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Always TEA</title>
@@ -17,7 +17,7 @@
     <div class="back">
         <div class="navbar navbar-inverse">
             <div class="container">
-                <div class="navbar-header" style="font-family:'CASUAL'; font-size:30px;" >
+                <div class="navbar-header" >
                     Teapot
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="hid-md"><a class="active" href="index.html">Главная</a></li>
+                        <li class="hid-md"><a href="index.html">Главная</a></li>
                         <li class="hid-md"><a href="HistoryPage.html">История чая</a></li>
                         <li class="hid-md"><a href="KindsPage.html">Виды чая</a></li>
                         <li class="hid-md"><a href="CeremoniesPage.html">Церемонии</a></li>
@@ -47,7 +47,7 @@
                 <li class="dropdown col-sm-2 col-md-2 hidden-xs">
                     <a class="dropdown-toggle" href="CermoniesPage.html" data-toggle="dropdown">Церемонии<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Китай</a></li>
+                        <li><a href="ChinaPage.html">Китай</a></li>
                         <li><a href="#">Япония</a></li>
                         <li><a href="#">Англия</a></li>
                     </ul>
@@ -71,7 +71,7 @@
                     <div class="item active">
                         <img src="img/123_0.jpg" alt="...">
                         <div class="carousel-caption">
-                            <a href="History/HistoryPage.html">
+                            <a href="ChinaPage.html">
                                 <h3>Традиции Китая</h3>
                                 <p>Особенности проведения чайной церемонии в Китае.</p>
                             </a>
@@ -112,28 +112,33 @@
         <header>
             <h2><a href="ResepiesPage.html" class="res">Рецепты</a></h2>
         </header>
-        <div class="container">
-            <div class="row">
-                <figure class="sel1-resep col-md-4 col-sm-12">
+        <div class="flex-container">
+            <div>
+                <figure class="sel1-resep">
                     <figcaption>
                         <a href="ResepiesPage.html">
                             <h3>Корица и яблоки</h3>
                             <p></p>
-                        </a></figcaption>
+                        </a>
+                    </figcaption>
                     <p></p>
                 </figure>
-                <figure class="sel2-resep col-md-4 col-sm-12">
+            </div>
+            <div>
+                <figure class="sel2-resep">
                     <figcaption>
-                        <a href="Resepies/ResepiesPage.html">
+                        <a href="ResepiesPage.html">
                             <h3>Лимон и имбирь</h3>
                             <p></p>
                         </a>
                     </figcaption>
                     <p></p>
                 </figure>
-                <figure class="sel3-resep col-md-4 col-sm-12">
+            </div>
+            <div>
+                <figure class="sel3-resep">
                     <figcaption>
-                        <a href="Resepies/ResepiesPage.html">
+                        <a href="ResepiesPage.html">
                             <h3>Малина и мята</h3>
                             <p></p>
                         </a>
@@ -146,65 +151,61 @@
     <!-- Виды чая -->
     <div class="kinds">
         <header><h2><a href="KindsPage.html">Виды чая</a></h2></header>
-        <div class="container">
-            <div class="row">
-                <figure class="sel1-kinds col-md-4 col-sm-12">
-                    <figcaption>
-                        <a href="KindsPage.html">
-                                <h3>Белый</h3>
-                                <p></p>
-                        </a>
-                    </figcaption>
-                </figure>
-                <figure class="sel2-kinds col-md-4 col-sm-12">
-                    <figcaption>
-                            <a href="KindsPage.html">
-                                <h3>Жёлтый</h3>
-                                <p></p>
-                            </a>
-                    </figcaption>
-                </figure>
-                <figure class="sel3-kinds col-md-4 col-sm-12">
-                    <figcaption>
-                            <a href="KindsPage.html">
-                                <h3>Красный</h3>
-                                <p></p>
-                            </a>
-                    </figcaption>
-                </figure>
-            </div>
+        <div class="flex-container">
+            <figure class="sel1-kinds">
+                <figcaption>
+                    <a href="KindsPage.html">
+                        <h3>Белый</h3>
+                        <p></p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel2-kinds">
+                <figcaption>
+                    <a href="KindsPage.html">
+                        <h3>Жёлтый</h3>
+                        <p></p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel3-kinds">
+                <figcaption>
+                    <a href="KindsPage.html">
+                        <h3>Красный</h3>
+                        <p></p>
+                    </a>
+                </figcaption>
+            </figure>
         </div>
     </div>
 
     <!-- Интересные факты -->
     <div class="facts">
         <header><h2><a href="FactsPage.html">Интересные факты</a></h2></header>
-        <div class="container">
-            <div class="row">
-                <figure class="sel1-facts col-md-4 col-sm-12">
-                    <figcaption>
-                        <a href="FactsPage.html">
-                            <h3>Camellia Sinensis.</h3><p>Растения Camellia Sinensis является исходным материалом и для зеленого, и для черного чая</p>
-                        </a>
-                    </figcaption>
-                </figure>
-                <figure class="sel2-facts col-md-4 col-sm-12">
-                    <figcaption>
-                            <a href="FactsPage.html">
-                                <h3>Чай нужно пить?</h3>
-                                <p>На одном из официальных королевских приемов из привезенных чайных листьев приготовили салат.</p>
-                            </a>
-                    </figcaption>
-                </figure>
-                <figure class="sel3-facts col-md-4 col-sm-12">
-                    <figcaption>
-                            <a href="FactsPage.html">
-                                <h3>Кофеин</h3>
-                                <p>В чашке чая кофеина в два раза меньше, чем в чашке кофе.</p>
-                            </a>
-                    </figcaption>
-                </figure>
-            </div>
+        <div class="flex-container">
+            <figure class="sel1-facts">
+                <figcaption>
+                    <a href="FactsPage.html">
+                        <h3>Camellia Sinensis.</h3><p>Растения Camellia Sinensis является исходным материалом и для зеленого, и для черного чая</p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel2-facts">
+                <figcaption>
+                    <a href="FactsPage.html">
+                        <h3>Чай нужно пить?</h3>
+                        <p>На одном из официальных королевских приемов из привезенных чайных листьев приготовили салат.</p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel3-facts">
+                <figcaption>
+                    <a href="FactsPage.html">
+                        <h3>Кофеин</h3>
+                        <p>В чашке чая кофеина в два раза меньше, чем в чашке кофе.</p>
+                    </a>
+                </figcaption>
+            </figure>
         </div>
     </div>
 
