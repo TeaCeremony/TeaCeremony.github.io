@@ -430,16 +430,17 @@ figcaption > a > p{
         font-size: 4vw;
     }
 
-    p {
+
+    figcaption > a > p {
         font-size: 3vw;
     }
     .carousel-caption > a > h2 {
-        font-size: 3vw;
+        font-size: 4vw;
         text-align: center;
     }
 
     .carousel-caption > a > h3 {
-        font-size: 4vw;
+        font-size: 3vw;
         text-align: center;
     }
 
