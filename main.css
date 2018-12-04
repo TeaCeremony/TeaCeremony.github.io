@@ -42,7 +42,7 @@ h2 {
     margin-top:20px;
     margin-bottom:20px;
 }
-li{
+.row li{
     font-size:1.5vw;
 }
 div.row-hid {
@@ -282,7 +282,7 @@ body {
 h3 {
     font-size: 2.5vw;
 }
-p{
+figcaption > a > p{
     font-size:2vw;
 }
 @media (min-width: 768px) {
@@ -432,5 +432,18 @@ p{
 
     p {
         font-size: 3vw;
+    }
+    .carousel-caption > a > h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .carousel-caption > a > h3 {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .carousel-caption > a:hover {
+        text-decoration: none;
     }
 }
