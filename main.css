@@ -14,7 +14,7 @@ header, footer{
     padding-bottom:20px;
 }
 h2 {
-    font-size: 5vw;
+    font-size: 3.5vw;
     text-align: center;
     margin-top: 1vw;
     margin-bottom: 3vw;
@@ -30,6 +30,9 @@ h2 {
     color: white;
     margin-top:20px;
     margin-bottom:20px;
+}
+li{
+    font-size:1.5vw;
 }
 div.row-hid {
    height:40px;
@@ -65,13 +68,30 @@ div.facts {
 .resep, h2 > a  {
         color: white;
     }
+.resep, h2 > a:hover {
+    color: white;
+    text-decoration:none;
+}
+figcaption > a:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom:none;
+}
 .kinds h2 > a {
     color: #2F2424;
+}
+.kinds h2 > a:hover {
+    color: #2F2424;
+    text-decoration:none;
 }
 .facts h2 > a {
     color: brown;
 }
 
+.facts h2 > a:hover {
+    text-decoration:none;
+    color: brown;
+}
 figure {
     display: block; /* Блочный элемент */
     width: 300px; /* Ширина */
@@ -89,6 +109,9 @@ li{
     a:active{
         color:brown;
     }
+a:hover {
+    color: brown;
+}
 
 figcaption {
     box-shadow: inset 0 0 1000px 100px rgba(0,0,0,.5);
