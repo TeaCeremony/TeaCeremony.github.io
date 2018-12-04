@@ -16,8 +16,8 @@ header, footer{
 h2 {
     font-size: 5vw;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
 }
 .navbar-header {
     text-align: center;
@@ -37,26 +37,30 @@ div.row-hid {
 div.resep {
     background-color: #2F2424;
     width: 100%;
-    padding-top: 3vw;
-    padding-bottom: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
 }
 .flex-container {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-align-content: flex-end;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content:flex-end;
+    align-content: flex-end;
 }
 div.kinds {
     background-color: white;
     width: 100%;
-    padding-top: 3vw;
-    padding-bottom: 5vw;
+    padding-top: 4vw;
+    padding-bottom: 6vw;
 }
 div.facts {
     background-color: #FDE9C6;
     width: 100%;
-    padding-top: 3vw;
-    padding-bottom: 5vw;
+    padding-top: 4vw;
+    padding-bottom: 6vw;
 }
 .resep, h2 > a  {
         color: white;
@@ -68,12 +72,6 @@ div.facts {
     color: brown;
 }
 
-resep > .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
 figure {
     display: block; /* Блочный элемент */
     width: 300px; /* Ширина */
@@ -121,48 +119,36 @@ figcaption > a {
 .sel1-kinds {
     background: url(img/img4.jpg) space no-repeat;
     background-size: 100% 100%;
-    margin-top: 20px; /* Отступы */
-    margin-bottom: 20px; /* Отступы */
     height: calc(25vw*1.3);
     width: 25vw;
 }
 .sel2-kinds {
     background: url(img/img5.jpg) space no-repeat;
     background-size: 100% 100%;
-    margin-top: 20px; /* Отступы */
-    margin-bottom: 20px; /* Отступы */
     height: calc(25vw*1.3);
     width: 25vw;
 }
 .sel3-kinds {
     background: url(img/img6.jpg) space no-repeat;
     background-size: 100% 100%;
-    margin-top: 20px; /* Отступы */
-    margin-bottom: 20px; /* Отступы */
     height: calc(25vw*1.3);
     width: 25vw;
 }
 .sel1-facts {
     background: url(img/img7.jpg) space no-repeat;
     background-size: 100% 100%;
-    margin-top: 20px; /* Отступы */
-    margin-bottom: 20px; /* Отступы */
     height: calc(25vw*1.3);
     width: 25vw;
 }
 .sel2-facts {
     background: url(img/img8.jpg) space no-repeat;
     background-size: 100% 100%;
-    margin-top: 20px; /* Отступы */
-    margin-bottom: 20px; /* Отступы */
     height: calc(25vw*1.3);
     width: 25vw;
 }
 .sel3-facts {
     background: url(img/img9.jpg) space no-repeat;
     background-size: 100% 100%;
-    margin-top: 20px; /* Отступы */
-    margin-bottom: 20px; /* Отступы */
     height: calc(25vw*1.3);
     width: 25vw;
 }
@@ -261,9 +247,6 @@ body {
 
 .h3, h3 {
     font-size: 3vw;
-}
-h2 {
-    margin: 0px 0px 0px 0px;
 }
 p{
     font-size:2vw;
