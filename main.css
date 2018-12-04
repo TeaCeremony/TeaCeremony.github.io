@@ -13,7 +13,7 @@ header, footer{
     width: 100%;
     padding-bottom:20px;
 }
-h2 {
+header > h2 {
     font-size: 5vw;
     text-align: center;
     margin-top: 1vw;
@@ -245,10 +245,10 @@ body {
         color: white;
     }
 
-.h3, h3 {
+figcaption > a > h3 {
     font-size: 3vw;
 }
-p{
+figcaption > a > p{
     font-size:2vw;
 }
 @media (min-width: 768px) {
@@ -307,102 +307,4 @@ p{
     figure{
         float:none;
     }
-    /*.sel1-resep {
-        background: url(img/img1.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px; 
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel2-resep {
-        background: url(img/img2.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel3-resep {
-        background: url(img/img3.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel1-kinds {
-        background: url(img/img4.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel2-kinds {
-        background: url(img/img5.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel3-kinds {
-        background: url(img/img6.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel1-facts {
-        background: url(img/img7.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel2-facts {
-        background: url(img/img8.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }
-
-    .sel3-facts {
-        background: url(img/img9.jpg) space no-repeat;
-        background-size: 100% 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 12%;
-        margin-right: 12%;
-        height: 300px;
-        width: 240px;
-    }*/
 }
