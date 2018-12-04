@@ -14,10 +14,21 @@ header, footer{
     padding-bottom:20px;
 }
 h2 {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     text-align: center;
     margin-top: 1vw;
     margin-bottom: 3vw;
+}
+.carousel-caption > a > h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+.carousel-caption > a > h3 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+.carousel-caption > a:hover {
+    text-decoration: none;
 }
 .navbar-header {
     text-align: center;
