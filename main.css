@@ -13,7 +13,7 @@ header, footer{
     width: 100%;
     padding-bottom:20px;
 }
-header > h2 {
+h2 {
     font-size: 5vw;
     text-align: center;
     margin-top: 1vw;
@@ -91,7 +91,7 @@ li{
     }
 
 figcaption {
-    box-shadow: inset 0 0 10px 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 1000px 100px rgba(0,0,0,.5);
     color: white; /* Цвет текста */
     align-content:flex-end;
 }
@@ -245,10 +245,10 @@ body {
         color: white;
     }
 
-figcaption > a > h3 {
-    font-size: 3vw;
+h3 {
+    font-size: 2.5vw;
 }
-figcaption > a > p{
+p{
     font-size:2vw;
 }
 @media (min-width: 768px) {
@@ -302,9 +302,75 @@ figcaption > a > p{
 @media (max-width: 1200px) {
 }
 
-@media (min-width: 320px) and (max-width: 425px){
+@media (max-width: 425px){
 
     figure{
         float:none;
+    }
+    .flex-container {
+        flex-direction: column;
+        margin-left: 25vw;
+    }
+    .sel1-resep {
+        background: url(img/img1.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel2-resep {
+        background: url(img/img2.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel3-resep {
+        background: url(img/img3.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel1-kinds {
+        background: url(img/img4.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel2-kinds {
+        background: url(img/img5.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel3-kinds {
+        background: url(img/img6.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel1-facts {
+        background: url(img/img7.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel2-facts {
+        background: url(img/img8.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
+    }
+
+    .sel3-facts {
+        background: url(img/img9.jpg) space no-repeat;
+        background-size: 100% 100%;
+        height: calc(50vw*1.3);
+        width: 50vw
     }
 }
