@@ -309,68 +309,94 @@ p{
     }
     .flex-container {
         flex-direction: column;
-        margin-left: 25vw;
+        margin-left: 20vw;
     }
     .sel1-resep {
         background: url(img/img1.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top:10px;
+        margin-bottom:10px;
     }
 
     .sel2-resep {
         background: url(img/img2.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel3-resep {
         background: url(img/img3.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel1-kinds {
         background: url(img/img4.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel2-kinds {
         background: url(img/img5.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel3-kinds {
         background: url(img/img6.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel1-facts {
         background: url(img/img7.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel2-facts {
         background: url(img/img8.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .sel3-facts {
         background: url(img/img9.jpg) space no-repeat;
         background-size: 100% 100%;
-        height: calc(50vw*1.3);
-        width: 50vw
+        height: calc(60vw*1.3);
+        width: 60vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 3vw;
     }
 }
