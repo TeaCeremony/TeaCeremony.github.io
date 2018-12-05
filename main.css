@@ -23,6 +23,11 @@ h2 {
     font-size: 3vw;
     text-align: center;
 }
+.classific{
+    width:50vw;
+    margin-left:15vw;
+
+}
 .carousel-caption > a > h3 {
     font-size: 1.5vw;
     text-align: center;
