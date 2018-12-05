@@ -452,4 +452,9 @@ figcaption > a > p{
     .carousel-caption > a:hover {
         text-decoration: none;
     }
+   
+    .classific {
+        width: 60vw;
+        margin-left: 10vw;
+    }
 }
