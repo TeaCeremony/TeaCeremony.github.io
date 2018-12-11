@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="windows-1251" />
+    <!-- для мобильной версии -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Always TEA</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="img/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+    <!-- Главная -->
+    <div class="back">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    Teapot
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hid-md"><a href="index.html">Главная</a></li>
+                        <li class="hid-md"><a href="HistoryPage.html">История чая</a></li>
+                        <li class="hid-md"><a href="KindsPage.html">Виды чая</a></li>
+                        <li class="dropdown hid-md">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Церемонии</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="ChinaPage.html">Китай</a></li>
+                                <li><a href="JapanePage.html">Япония</a></li>
+                                <li><a href="EnglandPage.html">Англия</a></li>
+                            </ul>
+                        </li>
+                        <li class="hid-md"><a href="ResepiesPage.html">Рецепты</a></li>
+                        <li class="hid-md"><a href="FactsPage.html">Интересные факты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <ul class="row">
+                <li class="col-sm-2 col-md-2 hidden-xs"><a class="active" href="index.html">Главная</a></li>
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="HistoryPage.html">История чая</a></li>
+
+                <!-- Выпадающий список -->
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="KindsPage.html">Виды чая</a></li>
+                <li class="dropdown col-sm-2 col-md-2 hidden-xs">
+                    <a class="dropdown-toggle" href="ChinaPage.html" data-toggle="dropdown">Церемонии<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="ChinaPage.html">Китай</a></li>
+                        <li><a href="JapanePage.html">Япония</a></li>
+                        <li><a href="EnglandPage.html">Англия</a></li>
+                    </ul>
+                </li>
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="ResepiesPage.html">Рецепты</a></li>
+                <li class="col-sm-2 col-md-2 hidden-xs"><a href="FactsPage.html">Факты</a></li>
+
+            </ul>
+        </div>
+
+        <!-- Карусель -->
+        <div class="container text-center">
+            <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
+                <!-- Индикаторы -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/123_0.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <a href="ChinaPage.html">
+                                <h2>Традиции Китая</h2>
+                                <h3>Особенности проведения чайной церемонии в Китае.</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/mainimage.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <a href="JapanePage.html">
+                                <h2>Традиции Японии</h2>
+                                <h3>Особенности проведения чайной церемонии в Японии.</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/chaynyy-serviz.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <a href="EnglandPage.html">
+                                <h2>Традиции Англии</h2>
+                                <h3>Особенности проведения чайной церемонии в Англии.</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Элементы управления -->
+                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Рецепты -->
+    <div class="resep">
+        <header><h2><a href="ResepiesPage.html">Рецепты</a></h2></header>
+        <div class="flex-container">
+            <figure class="sel1-resep">
+                <figcaption>
+                    <a href="ResepiesPage.html">
+                        <h3>Корица и яблоки</h3>
+                    </a>
+                </figcaption>
+                <p></p>
+            </figure>
+            <figure class="sel2-resep">
+                <figcaption>
+                    <a href="ResepiesPage.html">
+
+                        <h3>Лимон и имбирь</h3>
+                    </a>
+                </figcaption>
+                <p></p>
+            </figure>
+            <figure class="sel3-resep">
+                <figcaption>
+                    <a href="ResepiesPage.html">
+                        <h3>Малина и мята</h3>
+                    </a>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Виды чая -->
+    <div class="kinds">
+        <header><h2><a href="KindsPage.html">Виды чая</a></h2></header>
+        <div class="flex-container">
+            <figure class="sel1-kinds">
+                <figcaption>
+                    <a href="KindsPage.html">
+                        <h3>Белый</h3>
+                        <p></p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel2-kinds">
+                <figcaption>
+                    <a href="KindsPage.html">
+                        <h3>Жёлтый</h3>
+                        <p></p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel3-kinds">
+                <figcaption>
+                    <a href="KindsPage.html">
+                        <h3>Красный</h3>
+                        <p></p>
+                    </a>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Интересные факты -->
+    <div class="facts">
+        <header><h2><a href="FactsPage.html">Интересные факты</a></h2></header>
+        <div class="flex-container">
+            <figure class="sel1-facts">
+                <figcaption>
+                    <a href="FactsPage.html">
+                        <h3>Camellia Sinensis.</h3><p>Растения Camellia Sinensis является исходным материалом и для зеленого, и для черного чая</p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel2-facts">
+                <figcaption>
+                    <a href="FactsPage.html">
+                        <h3>Чай нужно пить?</h3>
+                        <p>На одном из официальных королевских приемов из привезенных чайных листьев приготовили салат.</p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure class="sel3-facts">
+                <figcaption>
+                    <a href="FactsPage.html">
+                        <h3>Кофеин</h3>
+                        <p>В чашке чая кофеина в два раза меньше, чем в чашке кофе.</p>
+                    </a>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="loader">
+                <img id="load">
+            </div>
+        </div>
+</footer>
+    <script>
+        $(document).ready(function () { //когда загрузилась стр выполнять эту функцию
+            $.ajax({
+                type: "GET",
+                url: "footer.xml",
+                dataType: "xml",
+                success: xmlParser
+            });
+        });
+        function xmlParser(xml) {
+            $(xml).find("info").each(function () {
+                $(".foot").append('<div class="info"><div class="name">' + $(xml).find("name").text() + '</div><div class="faculty">' + $(xml).find("faculty").text() + '</div><div class="speciality">' + $(xml).find("speciality").text() + '</div><div class="group">' + $(xml).find("group").text() + '</div><div class="year">' + $(xml).find("year").text() + '</div></div>');
+                
+            });
+        }
+    </script>
+</body>
+</html>
