@@ -504,7 +504,7 @@ figcaption > a > p{
         height: calc(80vw*0.56)
     } 
     .info > div {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     audio {
