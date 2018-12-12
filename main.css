@@ -32,8 +32,6 @@ iframe {
     padding-left:10%;
 }
     .info > div {
-        display: flex;
-        justify-content: center;
         font-size: 1.23vw;
     }
 .carousel-caption > a > h2 {
@@ -498,15 +496,14 @@ figcaption > a > p{
         width: 60vw;
         margin-left: 10vw;
     }
-    footer{
-        display:flex;
-        justify-content:space-around;
-    }
     iframe {
         margin-left: 5vw;
         margin-right: 5vw;
         width: 80vw;
         height: calc(80vw*0.56)
+    } 
+    .info > div {
+        font-size: 1.23vw;
     }
 
     audio {
