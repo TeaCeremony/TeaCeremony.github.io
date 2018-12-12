@@ -28,12 +28,13 @@ iframe {
 }
 .info {
     padding-top: 10px;
+    width:90%;
 }
-.info > div {
-    display: flex;
-    justify-content: center;
-    font-size: 1.23vw;
-}
+    .info > div {
+        display: flex;
+        justify-content: center;
+        font-size: 1.23vw;
+    }
 .carousel-caption > a > h2 {
     font-size: 3vw;
     text-align: center;
@@ -123,10 +124,10 @@ figcaption > a:hover {
     color: brown;
 }
 figure {
-    display: block; /* Áëî÷íûé ýëåìåíò */
-    width: 300px; /* Øèðèíà */
-    float: none; /* Áëîêè âûñòðàèâàþòñÿ ïî ãîðèçîíòàëè */
-    text-align: center; /* Âûðàâíèâàíèå ïî öåíòðó */
+    display: block; /* Блочный элемент */
+    width: 300px; /* Ширина */
+    float: none; /* Блоки выстраиваются по горизонтали */
+    text-align: center; /* Выравнивание по центру */
 }
 li{
     vertical-align:middle;
@@ -145,7 +146,7 @@ a:hover {
 
 figcaption {
     box-shadow: inset 0 0 1000px 100px rgba(0,0,0,.5);
-    color: white; /* Öâåò òåêñòà */
+    color: white; /* Цвет текста */
     align-content:flex-end;
 }
 figcaption > a {
@@ -206,7 +207,7 @@ figcaption > a {
     width: 25vw;
 }
 
-/*Ñòðàíèöà ðåöåïòîâ*/
+/*Страница рецептов*/
 .mainresep {
     height: auto;
     width: 90%;
@@ -273,7 +274,7 @@ div.music {
 .japane {
     background-color: rgba(233,150,122,0.9);
 }
-/*This thing äëÿ ïðîçðà÷íîãî áëîêà â êàðóñåëè*/
+/*This thing для прозрачного блока в карусели*/
 .carousel-caption {
     box-shadow: inset 0 0 10px 100px rgba(0,0,0,.3);
 }
