@@ -29,6 +29,7 @@ iframe {
 .info {
     padding-top: 10px;
     width:90%;
+    padding-left:10%;
 }
     .info > div {
         display: flex;
