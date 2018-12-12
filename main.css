@@ -30,9 +30,10 @@ iframe {
     padding-top: 10px;
     width:90%;
     padding-left:10%;
+    text-align:center;
 }
     .info > div {
-        font-size: 1.23vw;
+        font-size: 1.25vw;
     }
 .carousel-caption > a > h2 {
     font-size: 3vw;
@@ -503,7 +504,7 @@ figcaption > a > p{
         height: calc(80vw*0.56)
     } 
     .info > div {
-        font-size: 1.23vw;
+        font-size: 2vw;
     }
 
     audio {
