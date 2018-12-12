@@ -226,7 +226,7 @@ figcaption > a {
         padding-top: 10px;
         padding-bottom: 20px;
         padding-left: 50px;
-        padding-right: 30px;
+        padding-right: 50px;
     }
 
 .resep1 {
@@ -514,6 +514,13 @@ figcaption > a > p{
 
     div.music {
         margin-left: 10vw;
+    }
+    .mainresep > p {
+        text-align: justify;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 @media (max-width: 767px) {.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
